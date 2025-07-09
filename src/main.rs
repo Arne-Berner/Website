@@ -94,18 +94,20 @@ fn app() -> Html {
 
     html! {
     <>
-        <head>
-            <title>Arne Berner</title>
-        </head>
-        <h1>{ "Arne Berner" }</h1>
+        <h1>{ "RustConf Explorer" }</h1>
         <div>
-            <h3>{"Videos to watch"}</h3>
-                <VideosList videos={videos} on_click={on_video_select.clone()} />
+            <h2>{"Videos to watch"}</h2>
+            <p>{ "John Doe: Building and breaking things" }</p>
+            <p>{ "Jane Smith: The development process" }</p>
+            <p>{ "Matt Miller: The Web 7.0" }</p>
+            <p>{ "Tom Jerry: Mouseless development" }</p>
         </div>
-        { for details }
-    
+        <div>
+            <h2>{ "John Doe: Building and breaking things" }</h2>
+            <img src="https://placehold.co/640x360.png?text=Video+Player+Placeholder" alt="video thumbnail" />
+        </div>
     </>
-}
+    }
 }
 
 fn main() {
