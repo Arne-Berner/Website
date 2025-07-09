@@ -94,7 +94,6 @@ fn app() -> Html {
 
     html! {
     <>
-        <title>Schauspieler Arne Berner</title>
         <h1>{ "RustConf Explorer" }</h1>
         <div>
             <h2>{"Videos to watch"}</h2>
