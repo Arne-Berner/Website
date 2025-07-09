@@ -104,7 +104,7 @@ fn app() -> Html {
         </div>
         <div>
             <h2>{ "John Doe: Building and breaking things" }</h2>
-            <img src="https://placehold.co/640x360.png?text=Video+Player+Placeholder" alt="video thumbnail" />
+            // <img src="https://placehold.co/640x360.png?text=Video+Player+Placeholder" alt="video thumbnail" />
         </div>
     </>
     }
